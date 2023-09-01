@@ -5,11 +5,13 @@
 //   return <Component {...pageProps} />
 // }
 
-import MainLayout from "@/components/layouts/MainLayout";
-import "../styles/globals.css";
-import React, { ReactNode } from 'react';
+import MainLayout from "@/components/layouts/MainLayout"
+import "../styles/globals.css"
+import React, { ReactNode } from 'react'
+import { AppProps } from 'next/app'
 
-function MyApp({ Component, pageProps }: { Component: ReactNode }) {
+
+function MyApp({ Component, pageProps }: AppProps) {
   return (
     <MainLayout>
       <Component {...pageProps} />

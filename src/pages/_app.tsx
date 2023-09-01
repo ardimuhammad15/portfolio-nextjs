@@ -7,6 +7,7 @@
 
 import MainLayout from "@/components/layouts/MainLayout";
 import "../styles/globals.css";
+import React, { ReactNode } from 'react';
 
 function MyApp({ Component, pageProps }: { Component: ReactNode }) {
   return (

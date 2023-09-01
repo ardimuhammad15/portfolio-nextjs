@@ -2,7 +2,8 @@ import React from 'react'
 import Link from 'next/link'
 import Head from 'next/head'
 
-export default function Home() {
+// eslint-disable-next-line @typescript-eslint/explicit-function-return-type
+export default function Home () {
   return (
     <div className="flex flex-col lg:flex-row lg:space-x-10">
       <Head>

@@ -2,6 +2,7 @@ import React from 'react'
 import Link from 'next/link'
 import Head from 'next/head'
 
+// eslint-disable-next-line @typescript-eslint/explicit-function-return-type
 const Contact = () => (
   <section id="contact" className="relative">
     <Head>

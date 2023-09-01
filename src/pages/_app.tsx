@@ -8,12 +8,12 @@
 import MainLayout from "@/components/layouts/MainLayout";
 import "../styles/globals.css";
 
-function MyApp({ Component, pageProps }) {
+function MyApp({ Component, pageProps }: { Component: ReactNode }) {
   return (
     <MainLayout>
       <Component {...pageProps} />
     </MainLayout>
-  );
+  )
 }
 
-export default MyApp;
+export default MyApp

@@ -1,10 +1,10 @@
 /* eslint-disable react/prop-types */
-import React, { ReactNode } from 'react'
+import React, { type ReactNode } from 'react'
 import Header from '@/components/general/Header'
 import Footer from '@/components/general/Footer'
-import { AppProps } from 'next/app'
 
 // Menggunakan tipe ReactNode untuk children
+// eslint-disable-next-line @typescript-eslint/explicit-function-return-type
 const MainLayout = ({ children }: { children: ReactNode }) => (
   <>
     <Header />

@@ -5,7 +5,7 @@
 //   return <Component {...pageProps} />
 // }
 
-import MainLayout from "@/components/layouts/MainLayout"
+import MainLayout from '@/components/layouts/MainLayout'
 import "../styles/globals.css"
 import React, { ReactNode } from 'react'
 import { AppProps } from 'next/app'

@@ -1,6 +1,6 @@
-import React from "react";
-import Link from "next/link";
-import { menu } from "@/data/menu";
+import React from 'react'
+import Link from 'next/link'
+import { menu } from '@/data/menu'
 
 export default function Header() {
   return (

@@ -1,6 +1,7 @@
 import React from 'react'
 import Head from 'next/head'
 
+// eslint-disable-next-line @typescript-eslint/explicit-function-return-type
 const Testimoni = () => (
   <section id="testimoni" className="relative">
     <Head>

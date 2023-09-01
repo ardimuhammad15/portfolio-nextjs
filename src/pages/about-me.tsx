@@ -1,6 +1,7 @@
 import React from 'react'
 import Head from 'next/head'
 
+// eslint-disable-next-line @typescript-eslint/explicit-function-return-type
 const AboutMe = () => (
   <section id="about-me" className="flex flex-col lg:gap-52 lg:flex-row">
     <Head>
@@ -15,12 +16,12 @@ const AboutMe = () => (
       </h1>
 
       <p>
-       Hi. Saya mempunyai ketertarikan dalam bidang Software Development dan Data Analyst. 
-       Memiliki motivasi untuk mengembangkan kemampuan secara profesional.
-       Dapat diandalkan dalam tim dan berkomunikasi dengan baik.
+      Hi. Saya mempunyai ketertarikan dalam bidang Software Development dan Data Analyst.
+      Memiliki motivasi untuk mengembangkan kemampuan secara profesional.
+      Dapat diandalkan dalam tim dan berkomunikasi dengan baik.
       </p>
       <p>
-        Saya pernah bekerja sebagai IT Intern di perusahaan PT Bank Negara Indonesia (Persero) Tbk. 
+        Saya pernah bekerja sebagai IT Intern di perusahaan PT Bank Negara Indonesia (Persero) Tbk.
       </p>
     </div>
 

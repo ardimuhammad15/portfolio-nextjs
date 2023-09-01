@@ -3,7 +3,7 @@ import Link from 'next/link'
 import { menu } from '@/data/menu'
 
 // eslint-disable-next-line @typescript-eslint/explicit-function-return-type
-export default function Header() {
+export default function Header () {
   return (
     <header className="border-b border-slate-500 py-5 mb-5">
       <div className="container mx-auto flex justify-between px-5">

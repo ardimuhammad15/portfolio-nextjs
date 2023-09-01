@@ -1,6 +1,7 @@
 import React from 'react'
 import Head from 'next/head'
 
+// eslint-disable-next-line @typescript-eslint/explicit-function-return-type
 const Work = () => (
   <section id="work" className="flex flex-col lg:flex-row">
     <Head>

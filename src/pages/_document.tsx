@@ -1,8 +1,9 @@
+/* eslint-disable react/react-in-jsx-scope */
+/* eslint-disable @typescript-eslint/explicit-function-return-type */
 import { Html, Head, Main, NextScript } from 'next/document'
 
 export default function Document () {
   return (
-    // eslint-disable-next-line react/react-in-jsx-scope
     <Html lang="en">
       <Head />
       <body>

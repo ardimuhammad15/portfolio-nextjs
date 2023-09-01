@@ -5,7 +5,7 @@ import Footer from '@/components/general/Footer'
 import { AppProps } from 'next/app'
 
 // eslint-disable-next-line @typescript-eslint/explicit-function-return-type
-const MainLayout = ({ children }) => (
+const MainLayout = ({children} : AppProps) => (
   <>
     <Header />
     <main className="container mx-auto p-5">{children}</main>

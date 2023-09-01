@@ -11,6 +11,6 @@ const MainLayout = ({ children }: { children: ReactNode }) => (
     <main className="container mx-auto p-5">{children}</main>
     <Footer />
   </>
-);
+)
 
-export default MainLayout;
+export default MainLayout

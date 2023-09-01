@@ -2,7 +2,6 @@ import React from "react";
 import Header from "@/components/general/Header";
 import Footer from "@/components/general/Footer";
 
-// eslint-disable-next-line react/prop-types
 const MainLayout = ({ children }) => (
   <>
     <Header />
